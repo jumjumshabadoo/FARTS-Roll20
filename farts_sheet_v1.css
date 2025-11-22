@@ -1,0 +1,167 @@
+ @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: EB Garamond, serif;
+  }
+.wrapper {
+    background-color: antiquewhite;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+.containerrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    border: 1px;
+    border-style: solid;
+}
+.containerrow .wrap{
+    flex-wrap: wrap;
+}
+.containerrow .nowrap{
+    flex-wrap: nowrap;
+}
+.containercol{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-basis: 100%;
+    flex: 1;
+    border: 1px;
+    border-style: solid;
+}
+.item{
+    text-align: center;
+    flex-grow: 1;
+    background-color: antiquewhite;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding:1px;
+}
+.borderless{
+    border-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.maxwidth-05{
+    max-width: 5%;
+}
+.maxwidth-10{
+    max-width: 10%;
+}
+.maxwidth-15{
+    max-width: 15%;
+}
+.maxwidth-20{
+    max-width: 20%;
+}
+.maxwidth-25{
+    max-width: 25%;
+}
+.maxwidth-33{
+    max-width: 33%;
+}
+.maxwidth-50{
+    max-width: 50%;
+}
+.maxwidth-66{
+    max-width: 66%;
+}
+.maxwidth-75{
+    max-width: 75%;
+}
+.minwidth-66{
+    min-width: 66%;
+}
+.minwidth-50{
+    min-width: 50%;
+}
+.minwidth-30{
+    min-width: 30%;
+}
+.minwidth-25{
+    min-width: 25%;
+}
+.minwidth-20{
+    min-width: 20%;
+}
+.minwidth-15{
+    min-width: 15%;
+}
+.minwidth-10{
+    min-width: 10%;
+}
+.minwidth-05{
+    min-width: 5%;
+}
+.width-50{
+    width:10rem;
+}
+.width-25{
+    width:5rem;
+}
+.width-10{
+    width:2rem;
+}
+.width-5{
+    width:1rem;
+}
+.thin{
+    height:3.1rem;
+}
+.thinner{
+    height:1rem;
+}
+.fat{
+    height:15rem;
+}
+.chub{
+    height:6rem;
+}
+input{
+    text-align: center;
+    min-width:0 !important;
+    width:100% !important;
+    padding:0 !important;
+}
+.height-100{
+    height: 100%;
+}
+textarea{
+    max-height: 100%;
+    height:100% !important;
+    resize:none;
+}
+select{
+    text-align: center;
+    height:auto !important;
+    width:auto !important;
+}
+.maxwidth-50{
+    max-width: 50%;
+}
+.numpicker{
+    text-align: center;
+    height:auto !important;
+    width:auto !important;
+    width:3.5em !important;
+}
+.numpicker .fat{
+    height:100 !important;
+    width:100 !important;
+    width:20em !important;
+}
+img{
+    width:150px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

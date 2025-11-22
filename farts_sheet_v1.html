@@ -1,0 +1,793 @@
+<div class="wrapper">
+	<div class="containerrow borderless wrap"> 
+		<div class="containercol"> 
+			<div class="containerrow wrap"> 
+				<div class="item borderless minwidth-50">
+                			<img src="https://raw.githubusercontent.com/jumjumshabadoo/HilariaRoll20/05701f40c08dfb9712c0da61e79de4f623759836/hilaria.png" class="center">
+				</div>
+			</div>
+			<div class="containercol"> 
+				<h3>Character Profile</h3>
+				<div class="containerrow borderless wrap"> 
+					<div class="item borderless maxwidth-33 minwidth-25">
+						<input type="text" name="attr_name_label" value="Name:" readonly>
+					</div>
+					<div class="item borderless minwidth-50">
+						<input type="text" name="attr_name" value="">
+					</div>
+				</div>
+				<div class="containerrow borderless wrap"> 
+					<div class="item borderless maxwidth-33 minwidth-25">
+						<input type="text" name="attr_race_label" value="Race:" readonly>
+					</div>
+					<div class="item borderless minwidth-50">
+						<input type="text" name="attr_race" value="">
+					</div>
+				</div>
+				<div class="containerrow borderless wrap"> 
+					<div class="item borderless maxwidth-33 minwidth-25">
+						<input type="text" name="attr_prof_label" value="Background:" readonly>
+					</div>
+					<div class="item borderless minwidth-50">
+						<input type="text" name="attr_prof" value="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="containercol borderless"> 
+			<div class="containerrow wrap borderless"> 
+				<div class="containercol borderless"> 
+					<h1>STR</h1>
+					<div class="containerrow wrap borderless"> 
+						<div class="containercol"> 
+							<h5>Now</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_str_now" value="">
+							</div>
+						</div>
+						<div class="containercol"> 
+							<h5>Max</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_str_max" value="">
+							</div>
+						</div>
+					</div>
+					<div class="containercol borderless"> 
+						<h5>Wounds</h5>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_wounds" value="">
+						</div>
+					</div>
+				</div>
+				<div class="containercol borderless"> 
+					<h1>DEX</h1>
+					<div class="containerrow wrap borderless"> 
+						<div class="containercol"> 
+							<h5>Now</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_dex_now">
+							</div>
+						</div>
+						<div class="containercol"> 
+							<h5>Max</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_dex_max">
+							</div>
+						</div>
+					</div>
+					<div class="containercol borderless"> 
+						<h5>Weakness</h5>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_weakness">
+						</div>
+					</div>
+				</div>
+				<div class="containercol borderless"> 
+					<h1>MND</h1>
+					<div class="containerrow wrap borderless"> 
+						<div class="containercol"> 
+							<h5>Now</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_mnd_now">
+							</div>
+						</div>
+						<div class="containercol"> 
+							<h5>Max</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_mnd_max">
+							</div>
+						</div>
+					</div>
+					<div class="containercol borderless"> 
+						<h5>Weariness</h5>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_weariness">
+						</div>
+					</div>
+				</div>
+				<div class="containercol borderless">
+					<h1>PRO</h1>
+					<div class="containercol">
+						<h5>Now</h5>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_pro_now">
+						</div>
+					</div>
+					<div class="containercol">
+						<h5>Max</h5>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_pro_max">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containerrow wrap borderless"> 
+				<div class="containercol borderless"> 
+					<h1>EXP</h1>
+					<div class="containerrow wrap borderless"> 
+						<div class="containercol"> 
+							<h5>Now</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_exp_now">
+							</div>
+						</div>
+						<div class="containercol"> 
+							<h5>Total</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_exp_max">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="containercol borderless"> 
+					<h1>CC</h1>
+					<div class="containerrow wrap borderless"> 
+						<div class="containercol"> 
+							<h5>Now</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_cc_now">
+							</div>
+						</div>
+						<div class="containercol"> 
+							<h5>Max</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_cc_max">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="containercol borderless"> 
+					<h1>MR</h1>
+					<div class="containerrow wrap borderless"> 
+						<div class="containercol"> 
+							<h5>Now</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_mr_now">
+							</div>
+						</div>
+						<div class="containercol"> 
+							<h5>Max</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_mr_max">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="containercol borderless"> 
+					<h1>AB</h1>
+					<div class="containerrow wrap borderless"> 
+						<div class="containercol"> 
+							<h5>Melee</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_ab_melee">
+							</div>
+						</div>
+						<div class="containercol"> 
+							<h5>Ranged</h5>
+							<div class="item borderless">
+								<input class="numpicker" type="number" name="attr_ab_ranged">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="containerrow borderless wrap"> 
+		<div class="containercol borderless">
+			<h1>Skills</h1>
+			<div class="containerrow borderless wrap">
+				<div class="containercol">
+					<div class="containerrow borderless wrap">
+						<div class="item minwidth-66">
+							<h3>STR</h3>
+						</div>
+						<div class="item">
+							<h3>+%</h3>
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_0" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_0_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_1" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_1_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_2" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_2_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_3" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_3_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_4" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_4_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_5" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_5_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_6" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_6_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_7" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_7_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_8" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_8_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_str_9" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_str_9_bonus" value="">
+						</div>
+					</div>
+				</div>
+				<div class="containercol">
+					<div class="containerrow borderless wrap">
+						<div class="item minwidth-66">
+							<h3>DEX</h3>
+						</div>
+						<div class="item">
+							<h3>+%</h3>
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_0" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_0_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_1" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_1_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_2" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_2_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_3" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_3_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_4" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_4_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_5" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_5_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_6" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_6_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_7" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_7_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_8" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_8_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_dex_9" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_dex_9_bonus" value="">
+						</div>
+					</div>
+				</div>
+				<div class="containercol">
+					<div class="containerrow borderless wrap">
+						<div class="item minwidth-66">
+							<h3>MND</h3>
+						</div>
+						<div class="item">
+							<h3>+%</h3>
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_0" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_0_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_1" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_1_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_2" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_2_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_3" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_3_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_4" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_4_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_5" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_5_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_6" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_6_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_7" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_7_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_8" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_8_bonus" value="">
+						</div>
+					</div>
+					<div class="containerrow borderless wrap">
+						<div class="item borderless maxwidth-66">
+							<input class="text" name="attr_skill_mnd_9" value="">
+						</div>
+						<div class="item borderless">
+							<input class="numpicker" type="number" name="attr_skill_mnd_9_bonus" value="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="containercol borderless maxwidth-33">
+			<div class="containerrow borderless wrap">
+				<div class="item borderless thinner">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<h1>GP</h1>
+				<div class="item">
+					<input class="numpicker" type="number" name="attr_gp" value="">
+				</div>
+				<h1>SP</h1>
+				<div class="item">
+					<input class="numpicker" type="number" name="attr_sp" value="">
+				</div>
+				<h1>CP</h1>
+				<div class="item">
+					<input class="numpicker" type="number" name="attr_cp" value="">
+				</div>
+			</div>
+			<h1>Descriptors</h1>
+			<div class="containercol">
+				<div class="item borderless">
+					<input type="text" name="attr_descriptor_0" value="">
+					<input type="text" name="attr_descriptor_1" value="">
+					<input type="text" name="attr_descriptor_2" value="">
+					<input type="text" name="attr_descriptor_3" value="">
+					<input type="text" name="attr_descriptor_4" value="">
+					<input type="text" name="attr_descriptor_5" value="">
+					<input type="text" name="attr_descriptor_6" value="">
+					<input type="text" name="attr_descriptor_7" value="">
+					<input type="text" name="attr_descriptor_8" value="">
+					<input type="text" name="attr_descriptor_9" value="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<h1>Inventory</h1>
+	<div class="containerrow borderless wrap"> 
+		<div class="containercol">
+			<div class="containerrow wrap">
+				<div class="item borderless minwidth-75">
+					<h3>Equipment</h3>
+				</div>
+				<div class="item borderless maxwidth-25">
+					<h3>Fatigue</h3>
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless maxwidth-25">
+					<input class="text" name="attr_hand_0_label" value="Hand:" readonly>
+				</div>
+				<div class="item borderless minwidth-50">
+					<input class="text" name="attr_hand_0" value="">
+				</div>
+				<div class="item borderless minwidth-25">
+					<input type="checkbox" name="attr_fatigue_0" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless maxwidth-25">
+					<input class="text" name="attr_hand_1_label" value="Hand:" readonly>
+				</div>
+				<div class="item borderless minwidth-50">
+					<input class="text" name="attr_hand_1" value="">
+				</div>
+				<div class="item borderless minwidth-25">
+					<input type="checkbox" name="attr_fatigue_1" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless maxwidth-25">
+					<input class="text" name="attr_body_0_label" value="Body:" readonly>
+				</div>
+				<div class="item borderless minwidth-50">
+					<input class="text" name="attr_body_0" value="">
+				</div>
+				<div class="item borderless minwidth-25">
+					<input type="checkbox" name="attr_fatigue_2" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless maxwidth-25">
+					<input class="text" name="attr_body_1_label" value="Body:" readonly>
+				</div>
+				<div class="item borderless minwidth-50">
+					<input class="text" name="attr_body_1" value="">
+				</div>
+				<div class="item borderless minwidth-25">
+					<input type="checkbox" name="attr_fatigue_3" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_4" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_4" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_5" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_5" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_6" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_6" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_7" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_7" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_8" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_8" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_9" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_9" value="unchecked">
+				</div>
+			</div>
+		</div>
+		<div class="containercol">
+			<div class="containerrow wrap">
+				<div class="item borderless minwidth-75">
+					<h3>Equipment</h3>
+				</div>
+				<div class="item borderless maxwidth-25">
+					<h3>Fatigue</h3>
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_00" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_00" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_01" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_01" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_02" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_02" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_03" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_03" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_04" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_04" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_05" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_05" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_06" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_06" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_07" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_07" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_08" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_08" value="unchecked">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless minwidth-75">
+					<input class="text" name="attr_equipment_09" value="">
+				</div>
+				<div class="item borderless maxwidth-25 minwidth-25">
+					<input type="checkbox" name="attr_fatigue_09" value="unchecked">
+				</div>
+			</div>
+		</div>
+		<div class="containercol">
+			<div class="containerrow wrap">
+				<div class="item borderless ">
+					<h3>Petty Items</h3>
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_0" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_1" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_2" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_3" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_4" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_5" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_6" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_7" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_8" value="">
+				</div>
+			</div>
+			<div class="containerrow borderless wrap">
+				<div class="item borderless ">
+					<input class="text" name="attr_petty_item_9" value="">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/worker">
+on("change:wounds change:str_max sheet:opened", function() {
+  getAttrs(["str_max", "wounds"], function(values) {
+    let a = parseInt(values.str_max)||0;
+    let b = parseInt(values.wounds)||0;
+    let c = a - 5 * b;
+    setAttrs({
+      "str_now": c
+    });
+  });
+});
+on("change:weakness change:dex_max sheet:opened", function() {
+  getAttrs(["dex_max", "weakness"], function(values) {
+    let a = parseInt(values.dex_max)||0;
+    let b = parseInt(values.weakness)||0;
+    let c = a - 5 * b;
+    setAttrs({
+      "dex_now": c
+    });
+  });
+});
+on("change:weariness change:mnd_max sheet:opened", function() {
+  getAttrs(["mnd_max", "weariness"], function(values) {
+    let a = parseInt(values.mnd_max)||0;
+    let b = parseInt(values.weariness)||0;
+    let c = a - 5 * b;
+    setAttrs({
+      "mnd_now": c
+    });
+  });
+});
+</script>
